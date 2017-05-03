@@ -10,6 +10,8 @@ def compruebaErrores(email):
     if (patron.match(email)):
         return "Un email no puede contener caracteres "
 
+'''Esto es una prueba para ver si gurada los cambios'''
+
 def compruebaEmail (email):
     patron = re.compile("[A-Za-z0-9.-_]+@[A-Za-z0-9]+.[A-Za-z-.0-9]+")
     if (patron.match(email)):
